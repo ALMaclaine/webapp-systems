@@ -8,3 +8,6 @@
 
 - navigation system
   - conditional navigation, cant navigate away from a page if certain conditions are/nt met
+
+- form system
+  - must support sub forms with same semantics as main form, despite <form> not being allowed to nest 
