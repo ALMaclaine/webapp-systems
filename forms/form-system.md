@@ -12,7 +12,7 @@
   - support for complex data types like classes and objects
   - sub sections (scoped to namespace)
   - list/array types
-
+  - support schema validation
 
 # subform vs subsection
 - subform is a complete subform with its own submission criteria and context
