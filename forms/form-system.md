@@ -13,6 +13,8 @@
   - sub sections (scoped to namespace)
   - list/array types
   - support schema validation
+  - multiple steps
+    - different validation on each step
 
 # subform vs subsection
 - subform is a complete subform with its own submission criteria and context
