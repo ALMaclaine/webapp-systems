@@ -2,6 +2,7 @@
   - sub forms with same semantics as main form, despite <form> not being allowed to nest
   - form legos must be able to selectively register their initial values if they are not present in form context
     - this allows dynamically adding/removing sections of forms without controllex/uncontrolled switch
+    - 
   - allow hooking into form life cycles
     - should support a plugin system
   - input and output types
@@ -10,7 +11,7 @@
   - field encoders to convert to/from a type
   - support for complex data types like classes and objects
   - sub sections (scoped to namespace)
-  - s
+  - list/array types
 
 
 # subform vs subsection
