@@ -9,10 +9,5 @@
 - navigation system
   - conditional navigation, cant navigate away from a page if certain conditions are/nt met
 
-- form system
-  - must support sub forms with same semantics as main form, despite <form> not being allowed to nest 
-  - form legos must be able to selectively register their initial values if they are not present in form context
-    - this allows dynamically adding/removing sections of forms without controllex/uncontrolled switch
-
 - fileupload system
   - abstraction over URL.createObjectUrl and URL.deleteObjectUrl to create an efficient cache of file uploads to prevent unncessary memory usage
