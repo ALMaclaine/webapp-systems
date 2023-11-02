@@ -8,12 +8,6 @@ Certainly! Let's build upon each of the concepts you've mentioned:
 
 - **Plugin System**: Allow third-party plugins to be developed. Plugins can be used to extend the form's functionality, such as integrating analytics to track form interactions or adding extra validation layers.
 
-### 4. Input and Output Types:
-
-- **Transformers**: Create transformer functions that can transform the input data to a different output format. This is particularly useful when the backend expects data in a certain format which is different from the input.
-
-- **Data Mappers**: Use data mappers to map form fields to specific data structures. This way, even if the initial data structure changes, the mapper can handle the conversion.
-
 ### 5. Automatic Persistence to Multiple Data Stores:
 
 - **Persistence Layer**: Develop an abstracted persistence layer that can support different types of data stores (e.g., Local Storage, IndexedDB, REST API, GraphQL). 
