@@ -2,18 +2,6 @@ Certainly! Let's build upon each of the concepts you've mentioned:
 
 ## Form System
 
-### 1. Sub Forms with Similar Semantics:
-
-- **Shadow Forms**: Develop a concept of 'shadow forms' which can mimic the behavior of a real form but are essentially a collection of inputs. A 'shadow form' won't be a nested `<form>` but will behave like one in terms of collecting and validating data.
-  
-- **Parent-Child Communication**: Use custom events or a global state to allow these shadow forms to communicate with the main form. When the main form is submitted, it can collect data from all child shadow forms as well.
-
-### 2. Initial Values Registration:
-
-- **Form Registry**: Implement a form registry to keep track of all form legos (or form components). When a form component gets mounted and if its initial value is not present in the form context, it can register its value to this central registry.
-
-- **Dynamic Form Sections**: Offer utilities or hooks to facilitate the dynamic addition or removal of form sections. This ensures that when sections are added, their initial state is registered, and when removed, their state is de-registered.
-
 ### 3. Hooking into Form Life Cycles:
 
 - **Form Life Cycle Events**: Define clear life cycle events like `onFormInit`, `onFieldChange`, `onFormSubmit`, and `onFormReset`.
